@@ -22,3 +22,6 @@ General Overview:
 "05c_SCOP_Function_AnalysisandPlots.R" contains R code for plotting functional diversity metrics, constructing PCA, showing changes in time in Kegg Orthologs and Kegg Moduels, and plotting the residuals of KEGG Modules as ridgeline plots.  
 "05d_SCOP_KOs_in_Taxa.R" contains R code that identifies what taxa the indicator functions are found in.    
 "05e_SCOP_KOs_in_KEGGModules.R" contains R code that matches KOs with the Kegg Module that they are found in.  
+
+"06_SCOP_EnvironmentalData_and_PAHs.R" contains R code for plotting environmental conditions and polycyclic aromatic hydrocarbon (PAH) concentrations.  
+"07_SCOP_FlowCytometry_and_Microscopy.R" contains R code for plotting flow cytometry and microscopy data.  
