@@ -1175,7 +1175,7 @@ SCOP.kegg.zscore.rbind.plot <- ggplot(SCOP.kegg.zscore.rbind, aes(x = Date, y = 
   scale_x_date(breaks = SCOP.kegg.zscore.rbind$Date, date_labels = "%Y-%m-%d") + 
   expand_limits(y = c(-3, 4)) + 
   scale_y_continuous(breaks = seq(-3, 4, 1)) +
-  scale_color_manual(name = "Kegg Module:", values = c("deeppink2", "black", "grey30", "grey60", "deeppink4", "turquoise4", "darkseagreen3", "darkseagreen4", "goldenrod1", "darkorange3", "grey80"))
+  scale_color_manual(name = "Kegg Module:", values = c("deeppink2", "black", "grey40", "grey60", "deeppink4", "turquoise4", "darkseagreen3", "darkseagreen4", "goldenrod1", "darkorange3", "grey80"))
 SCOP.kegg.zscore.rbind.plot
 
 getwd()
