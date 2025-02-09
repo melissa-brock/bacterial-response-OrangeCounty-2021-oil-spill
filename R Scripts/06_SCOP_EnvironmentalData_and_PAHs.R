@@ -219,7 +219,7 @@ SCOP.pah2.plot2 <- ggplot(np.pah2.avg.grouped2, aes(x = as.Date(Date), y = value
   expand_limits(y = c(0, 125)) + 
   scale_y_continuous(breaks = seq(0, 125, 25)) + 
   theme(axis.title = element_text(size = 14), axis.text = element_text(size = 11), plot.title = element_text(size = 16, hjust = 0.5, face = "bold"), text = element_text(family = "sans", size = 12), legend.text = element_text(size = 12), legend.title = element_text(size = 14), axis.text.x = element_markdown(angle = 90, hjust = 1, vjust = 0.5, colour = c("grey30", "grey30", "seagreen4", "firebrick3", rep("grey30", 5), "firebrick3"))) + 
-  scale_color_manual(name = "Compound:", breaks = c("acenaphthene", "fluorene", "anthracene", "phenanthrene", "pyrene", "benz.a.anthracene", "Chrysene", "Total_PAH"), labels = c("Acenaphthene (LMW)", "Fluorene (LMW)", "Anthracene (LMW)", "Phenanthrene (LMW)", "Pyrene (HMW)", "Benz[a]anthracene (HMW)", "Chrysene (HMW)", "Total PAH Concentration"), values = c("darkgoldenrod3", "coral3", "darkslategray3", "darkslategray4", "grey80", "grey35", "black", "mediumorchid3"))
+  scale_color_manual(name = "Compound:", breaks = c("acenaphthene", "fluorene", "anthracene", "phenanthrene", "pyrene", "benz.a.anthracene", "Chrysene", "Total_PAH"), labels = c("Acenaphthene (LMW)", "Fluorene (LMW)", "Anthracene (LMW)", "Phenanthrene (LMW)", "Pyrene (HMW)", "Benz[a]anthracene (HMW)", "Chrysene (HMW)", "Total PAH Concentration"), values = c("darkgoldenrod3", "coral3", "darkslategray3", "darkslategray4", "grey70", "grey35", "black", "mediumorchid3"))
 SCOP.pah2.plot2
 
 
